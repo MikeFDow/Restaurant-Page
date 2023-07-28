@@ -98,16 +98,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-top: 25px;
     font-size: 25px;
     margin: 30px;
     font-family: 'titleFont';
+    
 }
 
 .menuImages {
     width: 250px;
     height: 250px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .infoDiv {
