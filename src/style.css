@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'titleFont';
+    src: url('Borel-Regular.woff') format('woff'),
+         url('Borel-Regular.woff2') format('woff2');
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('./back-mac.png');
+}
+
+#content {
+    display: grid;
+    
+}
+
+#buttonContainer {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.bDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    border: 10px solid mediumslateblue;
+    border-top: 10px solid mediumslateblue;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    margin-top: 25px;
+    margin-bottom: -20px;
+    font-family: 'titleFont';
+}
+
+.hello {
+    color: blue;
+}
+
+.tabButton {
+    width: 100px;
+    height: 50px;
+    border: 5px solid mediumslateblue;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    font-size: 20px;
+    margin-right: 50px;
+    font-family: 'titleFont';
+    padding-top: 10px;
+}
+
+.activeButton {
+    width: 100px;
+    height: 50px;
+    border: 5px solid mediumslateblue;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    font-size: 20px;
+    margin-right: 50px;
+    background-color: mediumslateblue;
+    font-family: 'titleFont';
+    
+}
+
+.homeImage {
+    width: 700px;
+    height: auto;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.welcomeText {
+    margin: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+}
+
+.menuItems {
+    border: 7px solid palevioletred;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 25px;
+    margin: 30px;
+    font-family: 'titleFont';
+}
+
+.menuImages {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.infoDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.addressNum {
+    font-size: 25px;
+}
+
+.hoursDiv {
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.monFri {
+    margin-bottom: -5px;
+    font-size: 25px;
+}
+
+.satSun {
+    font-size: 25px;
+}
+
+.creditBox {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.credit {
+    margin: 0;
+
+}
